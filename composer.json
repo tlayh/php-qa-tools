@@ -1,0 +1,15 @@
+{
+		"name": "qa-package",
+		"description" : "PHP QA Package",
+		"config": {
+			"vendor-dir": "Packages/Libraries",
+			"bin-dir": "bin"
+	},
+	"require": {
+		"mikey179/vfsstream": "1.1.*",
+		"phpunit/phpunit": ">3.7.11",
+		"phpunit/phpunit-selenium": "dev-master",
+		"phpmd/phpmd" : "1.4.*",
+		"squizlabs/php_codesniffer": "1.5.0RC2"
+	}
+}
